@@ -1,0 +1,7 @@
+landing_page_homepage:
+    path:     /
+    defaults: { _controller: landingPageBundle:Default:index }
+
+landing_page_id:
+    path:     /{id}
+    defaults: { _controller: landingPageBundle:Default:producto }

@@ -1,0 +1,14 @@
+ {% extends '::base.html.twig' %}
+{% block body %}
+  <div class="principal">
+    <p class="texto">Mi primer Landing Page</p>
+    <br>
+    <button name="go_poducto1" type="button">
+  <!-- Se usa el . para decirle que coja la ruta desde donde está-->
+      <a href="./1">Producto 1</a>
+    </button>
+    <button name="go_poducto2" type="button">
+      <a href="./2">Producto 2</a>
+    </button>
+  <div>
+{% endblock %}
